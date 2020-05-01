@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B400771F24508D96000B2024 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400771E24508D96000B2024 /* DetailVC.swift */; };
+		B40077212450C14F000B2024 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40077202450C14F000B2024 /* CollectionViewCell.swift */; };
 		B4259C77244FA50E0093CCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4259C76244FA50E0093CCFD /* AppDelegate.swift */; };
 		B4259C79244FA50E0093CCFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4259C78244FA50E0093CCFD /* SceneDelegate.swift */; };
 		B4259C7B244FA50E0093CCFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4259C7A244FA50E0093CCFD /* ViewController.swift */; };
 		B4259C7E244FA50E0093CCFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4259C7C244FA50E0093CCFD /* Main.storyboard */; };
 		B4259C80244FA50F0093CCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4259C7F244FA50F0093CCFD /* Assets.xcassets */; };
 		B4259C83244FA50F0093CCFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4259C81244FA50F0093CCFD /* LaunchScreen.storyboard */; };
+		B42673542457705200634D7C /* NationalParks.plist in Resources */ = {isa = PBXBuildFile; fileRef = B42673532457705200634D7C /* NationalParks.plist */; };
+		B42673562457707200634D7C /* Photo Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42673552457707200634D7C /* Photo Attribution.txt */; };
+		B4267358245770A200634D7C /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4267357245770A200634D7C /* Park.swift */; };
+		B426735A245770B900634D7C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4267359245770B900634D7C /* DataSource.swift */; };
+		B452114B245A15F100CAF816 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452114A245A15F100CAF816 /* SectionHeader.swift */; };
+		B452114D245A1F6100CAF816 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452114C245A1F6100CAF816 /* Section.swift */; };
+		B4521150245A2A7800CAF816 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B452114F245A2A7800CAF816 /* FlowLayout.swift */; };
+		B4E1A02624576CF600F6D396 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A02524576CF600F6D396 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B400771E24508D96000B2024 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		B40077202450C14F000B2024 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B4259C73244FA50E0093CCFD /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4259C76244FA50E0093CCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4259C78244FA50E0093CCFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		B4259C7F244FA50F0093CCFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4259C82244FA50F0093CCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4259C84244FA50F0093CCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42673532457705200634D7C /* NationalParks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NationalParks.plist; sourceTree = "<group>"; };
+		B42673552457707200634D7C /* Photo Attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Photo Attribution.txt"; sourceTree = "<group>"; };
+		B4267357245770A200634D7C /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		B4267359245770B900634D7C /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		B452114A245A15F100CAF816 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		B452114C245A1F6100CAF816 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		B452114F245A2A7800CAF816 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		B4E1A02524576CF600F6D396 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,73 @@
 		B4259C75244FA50E0093CCFD /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B452114E245A2A5E00CAF816 /* Layout */,
+				B426735B24577FF800634D7C /* Resources */,
+				B4E1A02424576CAE00F6D396 /* View Controllers */,
+				B4E1A02224576C9700F6D396 /* Data */,
+				B4E1A02124576C8B00F6D396 /* Cells */,
+				B4E1A02024576C7A00F6D396 /* Views */,
 				B4259C76244FA50E0093CCFD /* AppDelegate.swift */,
 				B4259C78244FA50E0093CCFD /* SceneDelegate.swift */,
-				B4259C7A244FA50E0093CCFD /* ViewController.swift */,
-				B4259C7C244FA50E0093CCFD /* Main.storyboard */,
-				B4259C7F244FA50F0093CCFD /* Assets.xcassets */,
-				B4259C81244FA50F0093CCFD /* LaunchScreen.storyboard */,
 				B4259C84244FA50F0093CCFD /* Info.plist */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B426735B24577FF800634D7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4259C81244FA50F0093CCFD /* LaunchScreen.storyboard */,
+				B4259C7C244FA50E0093CCFD /* Main.storyboard */,
+				B4259C7F244FA50F0093CCFD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B452114E245A2A5E00CAF816 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B452114F245A2A7800CAF816 /* FlowLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		B4E1A02024576C7A00F6D396 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1A02524576CF600F6D396 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4E1A02124576C8B00F6D396 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B40077202450C14F000B2024 /* CollectionViewCell.swift */,
+				B452114A245A15F100CAF816 /* SectionHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B4E1A02224576C9700F6D396 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B42673552457707200634D7C /* Photo Attribution.txt */,
+				B42673532457705200634D7C /* NationalParks.plist */,
+				B4267357245770A200634D7C /* Park.swift */,
+				B4267359245770B900634D7C /* DataSource.swift */,
+				B452114C245A1F6100CAF816 /* Section.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B4E1A02424576CAE00F6D396 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4259C7A244FA50E0093CCFD /* ViewController.swift */,
+				B400771E24508D96000B2024 /* DetailVC.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42673562457707200634D7C /* Photo Attribution.txt in Resources */,
+				B42673542457705200634D7C /* NationalParks.plist in Resources */,
 				B4259C83244FA50F0093CCFD /* LaunchScreen.storyboard in Resources */,
 				B4259C80244FA50F0093CCFD /* Assets.xcassets in Resources */,
 				B4259C7E244FA50E0093CCFD /* Main.storyboard in Resources */,
@@ -138,8 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4521150245A2A7800CAF816 /* FlowLayout.swift in Sources */,
+				B40077212450C14F000B2024 /* CollectionViewCell.swift in Sources */,
+				B4267358245770A200634D7C /* Park.swift in Sources */,
+				B452114B245A15F100CAF816 /* SectionHeader.swift in Sources */,
 				B4259C7B244FA50E0093CCFD /* ViewController.swift in Sources */,
+				B400771F24508D96000B2024 /* DetailVC.swift in Sources */,
+				B452114D245A1F6100CAF816 /* Section.swift in Sources */,
 				B4259C77244FA50E0093CCFD /* AppDelegate.swift in Sources */,
+				B4E1A02624576CF600F6D396 /* GradientView.swift in Sources */,
+				B426735A245770B900634D7C /* DataSource.swift in Sources */,
 				B4259C79244FA50E0093CCFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
